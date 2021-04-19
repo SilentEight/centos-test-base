@@ -1,4 +1,4 @@
-FROM centos:centos7.2.1511
+FROM centos:centos8.3.2011
 
 RUN yum install -y gettext which wget openssl unzip bzip2 openssh-clients iproute python3 python3-pip && \
     yum clean all && \
